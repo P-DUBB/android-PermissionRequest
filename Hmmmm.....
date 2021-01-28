@@ -1,0 +1,17 @@
+$ pip install shub
+$ shub login
+API key: b23e4fdf84124de686997f0ed3bf9e88
+$ sh$ pip install shub
+$ shub login
+API key: b23e4fdf84124de686997f0ed3bf9e88
+$ shub image init
+Dockerfile is saved to ./Dockerfile
+$ shub deploy 492598
+You have a Dockerfile in your project directory. Would you like to deploy it as custom image? [Y/n]: y
+Image repository (leave empty to use Scrapinghub's repository): 
+Saved to ./scrapinghub.yml.ub image init
+Dockerfile is saved to./Dockerfile
+$ shub deploy 492598
+You have a Dockerfile in your project directory. Would you like to deploy it as custom image? [Y/n]: n
+Image repository (leave empty to use Scrapinghub's repository): 
+Saved to ./scrapinghub.yml.
